@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url("gambar/bg-pas.jpg");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            /* Mengatur jadwal agar berada di tengah horizontal */
+            align-items: center;
+            /* Mengatur jadwal agar berada di tengah vertikal */
+            min-height: 100vh;
+            /* Membuat halaman penuh tinggi */
+        }
+
+        .jadwal {
+            background-color: rgba(255, 255, 255, 0.5);
+            /* Menambahkan transparansi putih untuk membedakan konten dengan background */
+            padding: 20px;
+            /* Menambahkan ruang di sekitar konten */
+        }
+
+        .jadwal table {
+            width: 100%;
+            /* Agar tabel jadwal penuh lebar */
+        }
+
+        .jadwal h1 {
+            text-align: center;
+            /* Mengatur judul 'Jadwal Perkuliahan' ke tengah */
+        }
+
+        .tombol {
+            color: black;
+            background-color: bisque;
+        }
+
+        .tombol:hover {
+            background-color: khaki;
+            /* Mengubah warna tombol saat disorot */
+        }
+
+        .tombol:active {
+            background-color: rgb(100, 96, 59);
+            /* Mengubah warna tombol saat diklik */
+        }
+        
+    </style>
+    <div class="jadwal">
+        <h1>Jadwal Perkuliahan</h1>
+        <table>
+            <td colspan="5" style="background-color: burlywood;">
+                <center><b>Senin</b></center>
+            </td>
+            <tr>
+                <td>
+                    <center><b>Mulai</b></center>
+                </td>
+                <td>
+                    <center><b>Selesai</b></center>
+                </td>
+                <td>
+                    <center><b>Mata Kuliah</b></center>
+                </td>
+                <td>
+                    <center><b>Ruang</b></center>
+                </td>
+                <td>
+                    <center><b>Dosen</b></center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>07:00</center>
+                </td>
+                <td>
+                    <center>08:40</center>
+                </td>
+                <td>
+                    <center>Pemrograman Berbasis Objek</center>
+                </td>
+                <td>
+                    <center>217</center>
+                </td>
+                <td>
+                    <center>Bu Tarie</center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>08:40</center>
+                </td>
+                <td>
+                    <center>14:25</center>
+                </td>
+                <td>
+                    <center>Praktik Pemrograman Berbasis Objek</center>
+                </td>
+                <td>
+                    <center>217</center>
+                </td>
+                <td>
+                    <center>Bu Tarie</center>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <td colspan="5" style="background-color: burlywood;">
+                <center><b>Selasa</b></center>
+            </td>
+            <tr>
+                <td>
+                    <center><b>Mulai</b></center>
+                </td>
+                <td>
+                    <center><b>Selesai</b></center>
+                </td>
+                <td>
+                    <center><b>Mata Kuliah</b></center>
+                </td>
+                <td>
+                    <center><b>Ruang</b></center>
+                </td>
+                <td>
+                    <center><b>Dosen</b></center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>07:00</center>
+                </td>
+                <td>
+                    <center>08:40</center>
+                </td>
+                <td>
+                    <center>Pemrograman Mobile 1</center>
+                </td>
+                <td>
+                    <center>305</center>
+                </td>
+                <td>
+                    <center>Pak Ang</center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>08:40</center>
+                </td>
+                <td>
+                    <center>14:25</center>
+                </td>
+                <td>
+                    <center>Praktik Pemrograman Mobile 1</center>
+                </td>
+                <td>
+                    <center>305</center>
+                </td>
+                <td>
+                    <center>Pak Ang</center>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <td colspan="5" style="background-color: burlywood;">
+                <center><b>Rabu</b></center>
+            </td>
+            <tr>
+                <td>
+                    <center><b>Mulai</b></center>
+                </td>
+                <td>
+                    <center><b>Selesai</b></center>
+                </td>
+                <td>
+                    <center><b>Mata Kuliah</b></center>
+                </td>
+                <td>
+                    <center><b>Ruang</b></center>
+                </td>
+                <td>
+                    <center><b>Dosen</b></center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>12:45</center>
+                </td>
+                <td>
+                    <center>14:25</center>
+                </td>
+                <td>
+                    <center>Desain dan Pemrograman Web</center>
+                </td>
+                <td>
+                    <center>212</center>
+                </td>
+                <td>
+                    <center>Pak Gus</center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>14:25</center>
+                </td>
+                <td>
+                    <center>19:55</center>
+                </td>
+                <td>
+                    <center>Desain dan Pemrograman Web</center>
+                </td>
+                <td>
+                    <center>218</center>
+                </td>
+                <td>
+                    <center>Pak Gus</center>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <td colspan="5" style="background-color: burlywood;">
+                <center><b>Kamis</b></center>
+            </td>
+            <tr>
+                <td>
+                    <center><b>Mulai</b></center>
+                </td>
+                <td>
+                    <center><b>Selesai</b></center>
+                </td>
+                <td>
+                    <center><b>Mata Kuliah</b></center>
+                </td>
+                <td>
+                    <center><b>Ruang</b></center>
+                </td>
+                <td>
+                    <center><b>Dosen</b></center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>12:45</center>
+                </td>
+                <td>
+                    <center>14:25</center>
+                </td>
+                <td>
+                    <center>Sistem Operasi</center>
+                </td>
+                <td>
+                    <center>307</center>
+                </td>
+                <td>
+                    <center>Pak Ram</center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>14:25</center>
+                </td>
+                <td>
+                    <center>19:55</center>
+                </td>
+                <td>
+                    <center>Praktik Sistem Operasi</center>
+                </td>
+                <td>
+                    <center>301</center>
+                </td>
+                <td>
+                    <center>Pak Ram</center>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <td colspan="5" style="background-color: burlywood;">
+                <center><b>Jumat</b></center>
+            </td>
+            <tr>
+                <td>
+                    <center><b>Mulai</b></center>
+                </td>
+                <td>
+                    <center><b>Selesai</b></center>
+                </td>
+                <td>
+                    <center><b>Mata Kuliah</b></center>
+                </td>
+                <td>
+                    <center><b>Ruang</b></center>
+                </td>
+                <td>
+                    <center><b>Dosen</b></center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>07:50</center>
+                </td>
+                <td>
+                    <center>09:30</center>
+                </td>
+                <td>
+                    <center>Agama Islam</center>
+                </td>
+                <td>
+                    <center>311</center>
+                </td>
+                <td>
+                    <center>Bu Nis</center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>09:45</center>
+                </td>
+                <td>
+                    <center>11:25</center>
+                </td>
+                <td>
+                    <center>Manajemen Resiko Proyek</center>
+                </td>
+                <td>
+                    <center>307</center>
+                </td>
+                <td>
+                    <center>Bu Nan</center>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <!-- Tombol prev -->
+        <button class="tombol" onclick="window.location.href='hobi.html'">Prev</button>
+        <!-- Tombol home -->
+        <button class="tombol" onclick="window.location.href='index.html'">Home</button>
+        <!-- Tombol next -->
+        <button class="tombol" onclick="window.location.href='tentang.html'">Next</button>
+    </div>
+    </main>
+    <script src="js/style.js" defer></script>
+</body </html>

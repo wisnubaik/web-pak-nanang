@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profil Saya</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        /* CSS untuk navbar */
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: darksalmon;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: black;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        a,
+        ul,
+        li,
+        th,
+        td {
+            font-family: "font bakso sapi", sans-serif;
+        }
+
+        .btn-home {
+            background-color: darksalmon;
+            border: none;
+            color: white;
+            padding: 10px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 12px;
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .btn-home:hover {
+            background-color: white;
+            color: black;
+        }
+
+        /* Gaya tombol Next */
+        .btn-next {
+            background-color: darksalmon;
+            border: none;
+            color: white;
+            padding: 10px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 12px;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .btn-next:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .judul {
+            background-color: rgb(161, 119, 77);
+            color: bisque;
+            border: 5px solid #724200;
+        }
+
+        .kotak {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin: auto;
+            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            background-image: url('gambar/bg-pas.jpg');
+            background-size: 0cm;
+        }
+
+        .blok {
+            width: 80%;
+            margin: 40px auto;
+            margin-bottom: 5cm;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .kiri {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+        }
+
+        .kanan {
+            display: flex;
+            align-items: right;
+            justify-content: center;
+            margin-right: 20px;
+        }
+
+        .kiri img {
+            width: 150px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url("gambar/bg-pas.jpg");
+            background-size: 10cm;
+        }
+    </style>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#informasi-ktp">Informasi KTP</a></li>
+            <li><a href="#timeline">Timeline</a></li>
+            <li><a href="#pengalaman">Pengalaman Sekolah</a></li>
+            <li><a href="#hal-hal-random">Hal-Hal Random</a></li>
+        </ul>
+    </nav>
+
+    <!-- Konten Profil -->
+    <div class="kotak">
+
+        <!-- Judul -->
+        <div class="judul">
+            <h1>==PROFIL SAYA==</h1>
+        </div>
+
+        <!-- Informasi KTP -->
+<div id="informasi-ktp" class="blok" style="display: flex; flex-direction: column;">
+    <h2 style="text-align: center;">Informasi menurut KTP</h2>
+    <div class="kiri">
+        <img src="gambar/profil.jpg">
+    </div>
+    <div class="kanan" style="text-align: left;">
+        <table style="margin: 0 auto; width: 100%;">
+            <tr>
+                <th style="text-align: right;">Nama</th>
+                <th>:</th>
+                <td style="text-align: left;">Wisnu A. Pradana</td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Tempat</th>
+                <th>:</th>
+                <td style="text-align: left;">Kos Putra Fajar s/d lulus</td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Tgl.Lahir</th>
+                <th>:</th>
+                <td style="text-align: left;">02 Oktober 2005</td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Agama</th>
+                <th>:</th>
+                <td style="text-align: left;">Islam</td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Alamat</th>
+                <th>:</th>
+                <td style="text-align: left;">Cepu, Blora</td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Email</th>
+                <th>:</th>
+                <td style="text-align: left;">wisnuap2024@gmail.com</td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">No.HP</th>
+                <th>:</th>
+                <td style="text-align: left;">privasi, tapi kalo maksa, <a href="tel:+6283866776676">klik disini!</a>.</td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">link spotify</th>
+                <th>:</th>
+                <td style="text-align: left;"><a href="https://open.spotify.com/playlist/1Drwc7LQCcwO6uNiQQY80Z?si=LKyjSRIBQXOqxlQLmXegqw">https://open.spotifywisnubaik.com</a></td>
+            </tr>
+        </table>
+    </div><br>
+    <div style="margin-top: auto; text-align: center;">
+        <a href="profil.html">
+            <button type="button" class="btn btn-primary" style="background-color: bisque; color: black;">kembali ke atas</button>
+        </a>
+    </div>
+</div> <br> <br>
+
+
+
+        <!-- Timeline --> 
+        <br>
+        <br>
+        <section id="timeline"></section> <br> <br> <br> <br> <br>
+        <div class="blok">
+            <h2>My Life Timeline</h2>
+            <div>
+                <ul>
+                    <li><b>2005 - 2009</b> hidup enak-enaknya</li>
+                    <li><b>2009 - 2014</b> fase menikmati hidup</li>
+                    <li><b>2014 - 2019</b> tanda-tanda</li>
+                    <li><b>2019 - 2023</b> menikmati hasil</li>
+                    <li><b>2023 - sekarang</b> berusaha keras memperbaiki diri agar menghasilkan hal yang lebih baik.
+                    </li>
+                </ul>
+            </div>
+            <br>
+    <div style="margin-top: auto; text-align: center;">
+        <a href="profil.html">
+            <button type="button" class="btn btn-primary" style="background-color: bisque; color: black;">kembali ke atas</button>
+        </a>
+    </div>
+        </div>
+
+        <!-- Pengalaman Sekolah -->
+        <section id="pengalaman"></section> <br> <br> <br> <br> <br>
+        <div class="blok">
+            <h2>Pengalaman Sekolah</h2>
+            <div>
+                <ul>
+                    <li>
+                        <b>2009 - 2010</b> - TK
+                    </li>
+                    <li>
+                        <b>2011 - 2016</b> - SD
+                    </li>
+                    <li>
+                        <b>2017 - 2019</b> - SMP
+                    </li>
+                    <li>
+                        <b>2020 - 2022</b> - SMA
+                    </li>
+                    <li>
+                        <b>2023 - sekarang</b> - alhamdulilah masuk PTN
+                    </li>
+                </ul>
+            </div>
+            <br>
+    <div style="margin-top: auto; text-align: center;">
+        <a href="profil.html">
+            <button type="button" class="btn btn-primary" style="background-color: bisque; color: black;">kembali ke atas</button>
+        </a>
+    </div>
+        </div>
+
+        <!-- Hal-Hal Random -->
+        <section id="hal-hal-random"></section> <br> <br> <br> <br> <br>
+        <div class="blok">
+            <h2>Hal-Hal Random</h2>
+            <div>
+                <ul>
+                    -seneng nolong orang <br>
+                    -music 24/7 <br>
+                    -self-love<br>
+                    -suka puisi sm baca buku<br>
+                    -iseng bikin lagu<br>
+                    -seneng lari<br>
+                    -protein lovers<br>
+                    -love gitar<br>
+                    -no smoking<br>
+                    -no porn<br>
+                    -suka pussssssss<br>
+                </ul>
+            </div>
+            <br>
+    <div style="margin-top: auto; text-align: center;">
+        <a href="profil.html">
+            <button type="button" class="btn btn-primary" style="background-color: bisque; color: black;">kembali ke atas</button>
+        </a>
+    </div>
+        </div>
+        <br>
+    </div>
+
+    <!-- Tombol Home -->
+    <a href="index.html" class="btn-home">Home</a>
+
+    <!-- Tombol Next -->
+    <a href="hobi.html" class="btn-next">Next</a>
+</body>
+
+</html>

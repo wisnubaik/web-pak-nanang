@@ -1,0 +1,8 @@
+.blok {
+    width: 80%; /* Sesuaikan lebar blok dengan kebutuhan */
+    margin: 20px auto; /* Mengatur margin atas dan bawah menjadi 20px, dan margin kiri dan kanan menjadi otomatis */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
